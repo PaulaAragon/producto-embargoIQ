@@ -1,0 +1,15 @@
+#second-container{
+    
+    margin-left: auto;
+    margin-right: auto;
+     /* margin: 30px 50px; */
+    width: 999px;  
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    background: rgba(233, 232, 232, 0.589);
+}
+table{
+    text-align: center;
+}

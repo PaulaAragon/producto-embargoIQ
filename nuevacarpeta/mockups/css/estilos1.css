@@ -1,0 +1,172 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+    font-family: "Lato", sans-serif;
+	margin: 0;
+	padding: 0;
+	background:#E7E4E4;
+	width: auto;
+	left: auto;
+}
+.izquierda1{ 	
+	
+	background: #E7E4E4;
+	height: 100vh;
+	width: 40%;
+	border-radius: 10px;
+}
+.derecha1{
+	background-size: cover;
+	background-position: center;
+	width: 60%;
+	height: 100vh;
+	border-radius: 10px
+
+}
+.arriba	{
+	width: 100%;
+	height: 15vh;
+	border: solid;
+	border-color: #D2CCCC;
+	display:flex;
+	background:#00CBFF;  	 
+	border-radius: 5px;	
+}
+.abajo{
+	background:#E7E4E4 ;
+	background-size: cover;
+	background-position:top;
+	width: 60%;
+	height: 10vh ;
+}
+#pantalla-dividida{
+	display:flex;
+}
+.h1{
+	font-size:  21px;	
+	width: 50%;
+	margin: auto; 
+}
+.im{
+	width:200px ;
+	height:80px ;
+	position:absolute;
+	top: 1.7%;
+	left: 7% ;
+}
+.im1{
+	position:absolute;
+	top: 2%;
+	left: 80%;
+}.img1{
+	width:40px ;
+	height:80px ;
+
+}
+p{
+	font-size: 15px;
+	width: 150px;
+	left: 10px;
+	line-height: 15px;
+	margin: auto;
+}
+.img3{
+	/*max-width: 110%;
+	max-height: 95%;*/
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	border: double;
+	border-radius: 10px;
+	align-content: center;
+}
+.boton{
+	border-radius: 10px;
+	width: 140px;
+	height: 35px;
+	font-size: 18px;
+	color: white;
+	font-weight: 600;
+	font-style: italic;
+}
+.cuadrito{
+	width: 140px ;
+	height:15px ;
+	border:double ;
+	border-radius:6px ;
+}
+.cuadrito1{
+	width: 140px ;
+	height:15px ;
+	background-color:#B7B2B2;
+	border:double ;
+	border-radius:6px ;
+}
+.cuadrito2{
+	width: 200px ;
+	height: 30px ;
+	border:double ;
+	border-radius:6px ;
+}
+
+.rotativo{
+		float:right;
+		transform: rotate(90deg);
+		transform-origin: left top 0;
+		margin-left: 5px;
+		padding: 5px;
+		opacity: 0.9;
+		font-size: 0.9em;
+		color:#1073BA;
+		text-transform: uppercase;
+}
+.hr{
+	font-size: 10%;
+	color:black;
+}
+ul,ol{
+	list-style: none;
+}
+.nav li a {
+	background-color: #000;
+	color: white;
+	text-decoration:none;
+	padding: 10px 15px;
+	display:block;
+}
+.nav li a:hover {
+	background-color: #434343;
+}
+
+.nav >li{
+	float:left;
+} 
+.nav li ul {
+	display:none;
+	position: absolute;
+	min-width: 150px;
+}
+.nav li:hover>ul {
+	display: block;
+}
+.nav li ul li {
+	position: relative;
+}
+.nav li ul li ul {
+	
+	right: -150px;
+	top: 0px;
+
+}
+.img4{
+	width: 40px;
+	height: 50px;
+	
+}
+.alerta{
+	width: 30px;
+	height: 20px;
+	position: absolute;
+	top: 30%;
+	left: 50%;
+}
